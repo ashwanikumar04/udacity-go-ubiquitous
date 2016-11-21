@@ -6,6 +6,7 @@
     <dimen name="digital_x_offset_round">25dp</dimen>
     <dimen name="digital_y_time_offset">60dp</dimen>
     <dimen name="digital_y_date_offset">80dp</dimen>
-    <dimen name="digital_y_divider_offset">90dp</dimen>
+    <dimen name="digital_y_divider_offset">100dp</dimen>
+    <dimen name="digital_y_weather_offset">140dp</dimen>
 
 </resources>

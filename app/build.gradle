@@ -19,7 +19,7 @@ android {
         }
     }
     buildTypes.each {
-        it.buildConfigField "String", "OPEN_WEATHER_MAP_API_KEY", "\"595412075a38d050bf886a8992beeac6\""
+        it.buildConfigField "String", "OPEN_WEATHER_MAP_API_KEY", MyOpenWeatherMapApiKey
     }
 }
 
@@ -33,7 +33,11 @@ dependencies {
     compile 'com.android.support:design:24.2.1'
     compile 'com.android.support:recyclerview-v7:24.2.1'
     compile 'com.google.android.apps.muzei:muzei-api:2.0'
-    compile 'com.google.android.gms:play-services-gcm:9.6.1'
-    compile 'com.google.android.gms:play-services-location:9.6.1'
-    compile 'com.google.android.gms:play-services-places:9.6.1'
+    compile 'com.google.android.gms:play-services-gcm:9.8.0'
+    compile 'com.google.android.gms:play-services-location:9.8.0'
+    compile 'com.google.android.gms:play-services-places:9.8.0'
+    compile 'com.google.android.gms:play-services-wearable:9.8.0'
+    compile 'com.google.android.support:wearable:2.0.0-alpha3'
+    wearApp project(':sunshine_wearable')
+
 }
